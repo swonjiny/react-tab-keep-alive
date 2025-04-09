@@ -1,9 +1,10 @@
 // src/pages/EmployeePage/index.jsx
+import { useState } from 'react';
 import EmployeeForm from './EmployeeForm';
 import EmployeeList from './EmployeeList';
 import EmployeeStats from './EmployeeStats';
+import Scene3D from '../../components/3D/Scene3D';
 import styles from './EmployeePage.module.css';
-import {useState} from "react";
 
 export default function EmployeePage() {
     const [employees, setEmployees] = useState([]);
@@ -16,8 +17,11 @@ export default function EmployeePage() {
         <div className={styles.employeePage}>
             <h2>직원 관리</h2>
             <div className={styles.container}>
-                <div className={styles.formSection}>
+                <div className={styles.leftSection}>
                     <EmployeeForm onSubmit={handleAddEmployee} />
+                    <div className={styles.scene3dWrapper}>
+                        <Scene3D />
+                    </div>
                 </div>
                 <div className={styles.contentSection}>
                     <EmployeeStats employees={employees} />

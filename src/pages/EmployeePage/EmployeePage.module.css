@@ -19,3 +19,32 @@
     flex-direction: column;
     gap: 20px;
 }
+
+/* src/pages/EmployeePage/EmployeePage.module.css */
+.employeePage {
+    padding: 20px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    gap: 20px;
+}
+
+.leftSection {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.scene3dWrapper {
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.contentSection {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}

@@ -1,0 +1,21 @@
+.employeePage {
+    padding: 20px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    gap: 20px;
+}
+
+.formSection {
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.contentSection {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}

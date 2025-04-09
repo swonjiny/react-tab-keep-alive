@@ -1,0 +1,28 @@
+/* src/pages/EmployeePage/EmployeeList.module.css */
+.listContainer {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.employeeTable {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.employeeTable th,
+.employeeTable td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.employeeTable th {
+    background: #f8f9fa;
+    font-weight: 600;
+}
+
+.employeeTable tr:hover {
+    background: #f8f9fa;
+}

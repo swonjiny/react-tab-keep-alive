@@ -1,0 +1,91 @@
+.main-layout {
+  padding: 20px;
+}
+
+.menu-buttons {
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: #f5f5f5;
+  border-radius: 4px;
+}
+
+.menu-button {
+  margin-right: 10px;
+  padding: 8px 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.menu-button:hover {
+  background-color: #45a049;
+}
+
+.main-nav {
+  margin-bottom: 20px;
+}
+
+.add-tab-button {
+  margin-right: 10px;
+  padding: 8px 16px;
+  background-color: #2196F3;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.add-tab-button:hover {
+  background-color: #1976D2;
+}
+
+.tabs-container {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabs-header {
+  display: flex;
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #ddd;
+}
+
+.tab {
+  padding: 10px 20px;
+  cursor: pointer;
+  border-right: 1px solid #ddd;
+  display: flex;
+  align-items: center;
+}
+
+.tab.active {
+  background-color: white;
+  border-bottom: 2px solid #2196F3;
+}
+
+.tab-close {
+  margin-left: 8px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  color: #666;
+}
+
+.tab-close:hover {
+  color: #dc3545;
+}
+
+.tabs-content {
+  padding: 20px;
+}
+
+.tab-pane {
+  display: none;
+}
+
+.tab-pane.active {
+  display: block;
+}

@@ -1,0 +1,102 @@
+.main-layout {
+  padding: 20px;
+}
+
+.main-nav {
+  display: flex;
+  background-color: #f0f0f0;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+}
+
+.nav-item {
+  margin-right: 10px;
+}
+
+.nav-item button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.nav-item button:hover {
+  background-color: #45a049;
+}
+
+.tabs-container {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabs-header {
+  display: flex;
+  background-color: #f8f8f8;
+  padding: 10px 10px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.tab {
+  padding: 8px 16px;
+  background-color: #f8f8f8;
+  border: 1px solid #ddd;
+  border-bottom: none;
+  margin-right: 4px;
+  border-radius: 4px 4px 0 0;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.tab.active {
+  background-color: #fff;
+  border-bottom: 2px solid #fff;
+  margin-bottom: -1px;
+}
+
+.tab-close {
+  padding: 0 4px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.tab-close:hover {
+  color: #ff0000;
+}
+
+.tab-pane {
+  display: none;
+  padding: 20px;
+}
+
+.tab-pane.active {
+  display: block;
+}
+
+.form-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
